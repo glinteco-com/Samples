@@ -1,0 +1,5 @@
+beautifulsoup4==4.12.0
+requests==2.28.2
+Scrapy==2.8.0
+fourmat==0.11.1
+flake8==3.9.2
