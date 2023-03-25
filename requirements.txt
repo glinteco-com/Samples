@@ -1,5 +1,11 @@
+# scrapers
 beautifulsoup4==4.12.0
 requests==2.28.2
 Scrapy==2.8.0
-fourmat==0.11.1
+playwright==1.31.1
+selenium==4.8.2
+pytest-playwright==0.3.2
+
+# style check
 flake8==3.9.2
+fourmat==0.11.1

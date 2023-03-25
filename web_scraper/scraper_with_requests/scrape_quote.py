@@ -17,7 +17,6 @@ def scrape_site(url):
         quote_content = quote_div.find("span", attrs={"class": "text"}).string[
             1:-1
         ]
-        tag_divs = quote_div.find_all("a", attrs={"class": "tag"})
         quote_tags = [
             tag_div.string
             for tag_div in quote_div.find_all("a", attrs={"class": "tag"})
