@@ -1,0 +1,12 @@
+{
+    "SECRET_KEY": "randon-secret-123",
+    "CELERY": {
+        "broker_url": "redis://localhost:6379/0",
+        "result_backend": "redis://localhost:6379/0",
+        "task_ignore_result": false,
+        "imports": ["tasks"],
+        "worker_redirect_stdouts_level": "CRITICAL"
+    },
+    "REDIS_URL": "redis://localhost:6379/1",
+    "SQLALCHEMY_DATABASE_URI": "postgresql://samples:password@localhost:5432/samples"
+}
