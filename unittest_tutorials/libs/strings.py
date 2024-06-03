@@ -22,3 +22,7 @@ def count_vowels(a_string: str) -> int:
         if char in vowels:
             count += 1
     return count
+
+
+def is_palindrome(a_string):
+    return a_string == a_string[::-1]
