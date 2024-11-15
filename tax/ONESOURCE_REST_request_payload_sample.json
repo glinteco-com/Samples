@@ -1,0 +1,291 @@
+{
+    "companyRole": "S",
+    "documents": [
+        {
+            "currencyCode": "USD",
+            "addresses": [
+                {
+                    "type": "billTo",
+                    "country": "US",
+                    "region": "IL",
+                    "city": "Springfield",
+                    "postcode": "62704",
+                    "geocode": "4648"
+                },
+                {
+                    "type": "shipFrom",
+                    "country": "US",
+                    "region": "Illinois",
+                    "city": "Warrenville",
+                    "postcode": "60555",
+                    "geocode": ""
+                },
+                {
+                    "type": "shipTo",
+                    "country": "US",
+                    "region": "IL",
+                    "city": "Springfield",
+                    "postcode": "62704",
+                    "geocode": "4648"
+                }
+            ],
+            "documentNumber": "123456",
+            "documentDate": "2024-11-14",
+            "externalCompanyId": "DSTAX",
+            "lines": [
+                {
+                    "lineNumber": 1,
+                    "productCode": "CODE",
+                    "quantities": [
+                        {
+                            "amount": 1,
+                            "uom": ""
+                        }
+                    ],
+                    "amount": 1
+                },
+                {
+                    "lineNumber": 2,
+                    "productCode": "FREIGHT",
+                    "quantities": [
+                        {
+                            "amount": 1,
+                            "uom": ""
+                        }
+                    ],
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "currencyCode": "USD",
+            "addresses": [
+                {
+                    "type": "billTo",
+                    "country": "US",
+                    "region": "IL",
+                    "city": "Springfield",
+                    "postcode": "62704",
+                    "geocode": "4648"
+                },
+                {
+                    "type": "shipFrom",
+                    "country": "US",
+                    "region": "Illinois",
+                    "city": "Warrenville",
+                    "postcode": "60555",
+                    "geocode": ""
+                },
+                {
+                    "type": "shipTo",
+                    "country": "US",
+                    "region": "IL",
+                    "city": "Springfield",
+                    "postcode": "62704",
+                    "geocode": "4648"
+                }
+            ],
+            "documentNumber": "123456",
+            "documentDate": "2024-11-14",
+            "externalCompanyId": "DSTAX",
+            "lines": [
+                {
+                    "lineNumber": 1,
+                    "productCode": "CODE",
+                    "quantities": [
+                        {
+                            "amount": 1,
+                            "uom": ""
+                        }
+                    ],
+                    "amount": 1
+                },
+                {
+                    "lineNumber": 2,
+                    "productCode": "FREIGHT",
+                    "quantities": [
+                        {
+                            "amount": 1,
+                            "uom": ""
+                        }
+                    ],
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "currencyCode": "USD",
+            "addresses": [
+                {
+                    "type": "billTo",
+                    "country": "US",
+                    "region": "IL",
+                    "city": "Springfield",
+                    "postcode": "62704",
+                    "geocode": "4648"
+                },
+                {
+                    "type": "shipFrom",
+                    "country": "US",
+                    "region": "Illinois",
+                    "city": "Warrenville",
+                    "postcode": "60555",
+                    "geocode": ""
+                },
+                {
+                    "type": "shipTo",
+                    "country": "US",
+                    "region": "IL",
+                    "city": "Springfield",
+                    "postcode": "62704",
+                    "geocode": "4648"
+                }
+            ],
+            "documentNumber": "123456",
+            "documentDate": "2024-11-14",
+            "externalCompanyId": "DSTAX",
+            "lines": [
+                {
+                    "lineNumber": 1,
+                    "productCode": "CODE",
+                    "quantities": [
+                        {
+                            "amount": 1,
+                            "uom": ""
+                        }
+                    ],
+                    "amount": 1
+                },
+                {
+                    "lineNumber": 2,
+                    "productCode": "FREIGHT",
+                    "quantities": [
+                        {
+                            "amount": 1,
+                            "uom": ""
+                        }
+                    ],
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "currencyCode": "USD",
+            "addresses": [
+                {
+                    "type": "billTo",
+                    "country": "US",
+                    "region": "IL",
+                    "city": "Springfield",
+                    "postcode": "62704",
+                    "geocode": "4648"
+                },
+                {
+                    "type": "shipFrom",
+                    "country": "US",
+                    "region": "Illinois",
+                    "city": "Warrenville",
+                    "postcode": "60555",
+                    "geocode": ""
+                },
+                {
+                    "type": "shipTo",
+                    "country": "US",
+                    "region": "IL",
+                    "city": "Springfield",
+                    "postcode": "62704",
+                    "geocode": "4648"
+                }
+            ],
+            "documentNumber": "123456",
+            "documentDate": "2024-11-14",
+            "externalCompanyId": "DSTAX",
+            "lines": [
+                {
+                    "lineNumber": 1,
+                    "productCode": "CODE",
+                    "quantities": [
+                        {
+                            "amount": 1,
+                            "uom": ""
+                        }
+                    ],
+                    "amount": 1
+                },
+                {
+                    "lineNumber": 2,
+                    "productCode": "FREIGHT",
+                    "quantities": [
+                        {
+                            "amount": 1,
+                            "uom": ""
+                        }
+                    ],
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "currencyCode": "USD",
+            "addresses": [
+                {
+                    "type": "billTo",
+                    "country": "US",
+                    "region": "IL",
+                    "city": "Springfield",
+                    "postcode": "62704",
+                    "geocode": "4648"
+                },
+                {
+                    "type": "shipFrom",
+                    "country": "US",
+                    "region": "Illinois",
+                    "city": "Warrenville",
+                    "postcode": "60555",
+                    "geocode": ""
+                },
+                {
+                    "type": "shipTo",
+                    "country": "US",
+                    "region": "IL",
+                    "city": "Springfield",
+                    "postcode": "62704",
+                    "geocode": "4648"
+                }
+            ],
+            "documentNumber": "123456",
+            "documentDate": "2024-11-14",
+            "externalCompanyId": "DSTAX",
+            "lines": [
+                {
+                    "lineNumber": 1,
+                    "productCode": "CODE",
+                    "quantities": [
+                        {
+                            "amount": 1,
+                            "uom": ""
+                        }
+                    ],
+                    "amount": 1
+                },
+                {
+                    "lineNumber": 2,
+                    "productCode": "FREIGHT",
+                    "quantities": [
+                        {
+                            "amount": 1,
+                            "uom": ""
+                        }
+                    ],
+                    "amount": 1
+                }
+            ]
+        }
+    ],
+    "processingOptions": {
+        "chargeIncludedInAmounts": false,
+        "chargeResponse": "CombineWithLine",
+        "responseSummary": "FullDetails",
+        "documentAmountType": "GrossPlusTaxAmount"
+    }
+}

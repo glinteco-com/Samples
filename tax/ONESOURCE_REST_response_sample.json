@@ -1,0 +1,2194 @@
+{
+    "companyRole": "S",
+    "status": {
+        "isSuccess": true,
+        "isPartialSuccess": true
+    },
+    "documents": [
+        {
+            "status": {
+                "isSuccess": true,
+                "isPartialSuccess": false
+            },
+            "calculationDirection": "T",
+            "companyName": "zz - Acct - DSTAX Sandbox UAT",
+            "companyRole": "S",
+            "currencyCode": "USD",
+            "externalCompanyId": "DSTAX",
+            "transactionDate": "2024-11-14",
+            "totalTaxAmount": 0.16,
+            "isCredit": false,
+            "vendorChargeTax": {
+                "isVctApplied": false
+            },
+            "lines": [
+                {
+                    "grossAmount": 0.92,
+                    "lineNumber": "1",
+                    "pointOfTitleTransfer": "I",
+                    "taxSummary": {
+                        "taxableBasis": "0.92",
+                        "nonTaxableBasis": "0.00",
+                        "exemptAmount": "0.00",
+                        "taxRate": "0.0825",
+                        "effectiveTaxRate": "0.0869565217",
+                        "netGrossAmount": "0.92",
+                        "netTaxAmount": "0.08"
+                    },
+                    "transactionType": "GS",
+                    "totalTaxAmount": 0.08,
+                    "taxes": [
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "State Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "State",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG189: Standard Sales Tax Applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.06,
+                                "unroundedAuthorityAmount": 0.0577367206,
+                                "documentAmount": 0.06,
+                                "unroundedDocumentAmount": 0.0577367206
+                            },
+                            "taxRate": "0.0625",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - STATE SALES/USE TAX",
+                            "authorityUuid": "88ef9864-7f75-4b36-aa8c-4ac4e613fee9",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9990",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "ILLINOIS",
+                            "zoneLevel": "State",
+                            "ZoneFipsCode": "17"
+                        },
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "County Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "County",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG91: Standard sales tax applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.01,
+                                "unroundedAuthorityAmount": 0.0069284065,
+                                "documentAmount": 0.01,
+                                "unroundedDocumentAmount": 0.0069284065
+                            },
+                            "taxRate": "0.0075",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - DUPAGE COUNTY REGIONAL TRANSPORTATION AUTHORITY, COUNTY SALES TAX",
+                            "authorityUuid": "34908cdd-28af-419c-aa6d-4b53ba1065af",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9991",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "DUPAGE",
+                            "zoneLevel": "County",
+                            "ZoneFipsCode": "17043"
+                        },
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "City Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "City",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG91: Standard sales tax applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.01,
+                                "unroundedAuthorityAmount": 0.0115473441,
+                                "documentAmount": 0.01,
+                                "unroundedDocumentAmount": 0.0115473441
+                            },
+                            "taxRate": "0.0125",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - WARRENVILLE, CITY SALES TAX",
+                            "authorityUuid": "f1a60f57-0ffd-4ee4-a20f-48e9cc4e84cd",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9991",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "WARRENVILLE",
+                            "zoneLevel": "City",
+                            "ZoneFipsCode": "1704378929"
+                        }
+                    ],
+                    "quantities": [
+                        {
+                            "amount": 1
+                        }
+                    ]
+                },
+                {
+                    "grossAmount": 0.92,
+                    "lineNumber": "2",
+                    "pointOfTitleTransfer": "I",
+                    "taxSummary": {
+                        "taxableBasis": "0.92",
+                        "nonTaxableBasis": "0.00",
+                        "exemptAmount": "0.00",
+                        "taxRate": "0.0825",
+                        "effectiveTaxRate": "0.0869565217",
+                        "netGrossAmount": "0.92",
+                        "netTaxAmount": "0.08"
+                    },
+                    "transactionType": "GS",
+                    "totalTaxAmount": 0.08,
+                    "taxes": [
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "State Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "State",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG189: Standard Sales Tax Applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.06,
+                                "unroundedAuthorityAmount": 0.0577367206,
+                                "documentAmount": 0.06,
+                                "unroundedDocumentAmount": 0.0577367206
+                            },
+                            "taxRate": "0.0625",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - STATE SALES/USE TAX",
+                            "authorityUuid": "88ef9864-7f75-4b36-aa8c-4ac4e613fee9",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9990",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "ILLINOIS",
+                            "zoneLevel": "State",
+                            "ZoneFipsCode": "17"
+                        },
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "County Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "County",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG91: Standard sales tax applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.01,
+                                "unroundedAuthorityAmount": 0.0069284065,
+                                "documentAmount": 0.01,
+                                "unroundedDocumentAmount": 0.0069284065
+                            },
+                            "taxRate": "0.0075",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - DUPAGE COUNTY REGIONAL TRANSPORTATION AUTHORITY, COUNTY SALES TAX",
+                            "authorityUuid": "34908cdd-28af-419c-aa6d-4b53ba1065af",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9991",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "DUPAGE",
+                            "zoneLevel": "County",
+                            "ZoneFipsCode": "17043"
+                        },
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "City Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "City",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG91: Standard sales tax applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.01,
+                                "unroundedAuthorityAmount": 0.0115473441,
+                                "documentAmount": 0.01,
+                                "unroundedDocumentAmount": 0.0115473441
+                            },
+                            "taxRate": "0.0125",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - WARRENVILLE, CITY SALES TAX",
+                            "authorityUuid": "f1a60f57-0ffd-4ee4-a20f-48e9cc4e84cd",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9991",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "WARRENVILLE",
+                            "zoneLevel": "City",
+                            "ZoneFipsCode": "1704378929"
+                        }
+                    ],
+                    "quantities": [
+                        {
+                            "amount": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "status": {
+                "isSuccess": true,
+                "isPartialSuccess": false
+            },
+            "calculationDirection": "T",
+            "companyName": "zz - Acct - DSTAX Sandbox UAT",
+            "companyRole": "S",
+            "currencyCode": "USD",
+            "externalCompanyId": "DSTAX",
+            "transactionDate": "2024-11-14",
+            "totalTaxAmount": 0.16,
+            "isCredit": false,
+            "vendorChargeTax": {
+                "isVctApplied": false
+            },
+            "lines": [
+                {
+                    "grossAmount": 0.92,
+                    "lineNumber": "1",
+                    "pointOfTitleTransfer": "I",
+                    "taxSummary": {
+                        "taxableBasis": "0.92",
+                        "nonTaxableBasis": "0.00",
+                        "exemptAmount": "0.00",
+                        "taxRate": "0.0825",
+                        "effectiveTaxRate": "0.0869565217",
+                        "netGrossAmount": "0.92",
+                        "netTaxAmount": "0.08"
+                    },
+                    "transactionType": "GS",
+                    "totalTaxAmount": 0.08,
+                    "taxes": [
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "State Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "State",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG189: Standard Sales Tax Applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.06,
+                                "unroundedAuthorityAmount": 0.0577367206,
+                                "documentAmount": 0.06,
+                                "unroundedDocumentAmount": 0.0577367206
+                            },
+                            "taxRate": "0.0625",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - STATE SALES/USE TAX",
+                            "authorityUuid": "88ef9864-7f75-4b36-aa8c-4ac4e613fee9",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9990",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "ILLINOIS",
+                            "zoneLevel": "State",
+                            "ZoneFipsCode": "17"
+                        },
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "County Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "County",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG91: Standard sales tax applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.01,
+                                "unroundedAuthorityAmount": 0.0069284065,
+                                "documentAmount": 0.01,
+                                "unroundedDocumentAmount": 0.0069284065
+                            },
+                            "taxRate": "0.0075",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - DUPAGE COUNTY REGIONAL TRANSPORTATION AUTHORITY, COUNTY SALES TAX",
+                            "authorityUuid": "34908cdd-28af-419c-aa6d-4b53ba1065af",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9991",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "DUPAGE",
+                            "zoneLevel": "County",
+                            "ZoneFipsCode": "17043"
+                        },
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "City Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "City",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG91: Standard sales tax applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.01,
+                                "unroundedAuthorityAmount": 0.0115473441,
+                                "documentAmount": 0.01,
+                                "unroundedDocumentAmount": 0.0115473441
+                            },
+                            "taxRate": "0.0125",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - WARRENVILLE, CITY SALES TAX",
+                            "authorityUuid": "f1a60f57-0ffd-4ee4-a20f-48e9cc4e84cd",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9991",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "WARRENVILLE",
+                            "zoneLevel": "City",
+                            "ZoneFipsCode": "1704378929"
+                        }
+                    ],
+                    "quantities": [
+                        {
+                            "amount": 1
+                        }
+                    ]
+                },
+                {
+                    "grossAmount": 0.92,
+                    "lineNumber": "2",
+                    "pointOfTitleTransfer": "I",
+                    "taxSummary": {
+                        "taxableBasis": "0.92",
+                        "nonTaxableBasis": "0.00",
+                        "exemptAmount": "0.00",
+                        "taxRate": "0.0825",
+                        "effectiveTaxRate": "0.0869565217",
+                        "netGrossAmount": "0.92",
+                        "netTaxAmount": "0.08"
+                    },
+                    "transactionType": "GS",
+                    "totalTaxAmount": 0.08,
+                    "taxes": [
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "State Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "State",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG189: Standard Sales Tax Applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.06,
+                                "unroundedAuthorityAmount": 0.0577367206,
+                                "documentAmount": 0.06,
+                                "unroundedDocumentAmount": 0.0577367206
+                            },
+                            "taxRate": "0.0625",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - STATE SALES/USE TAX",
+                            "authorityUuid": "88ef9864-7f75-4b36-aa8c-4ac4e613fee9",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9990",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "ILLINOIS",
+                            "zoneLevel": "State",
+                            "ZoneFipsCode": "17"
+                        },
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "County Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "County",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG91: Standard sales tax applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.01,
+                                "unroundedAuthorityAmount": 0.0069284065,
+                                "documentAmount": 0.01,
+                                "unroundedDocumentAmount": 0.0069284065
+                            },
+                            "taxRate": "0.0075",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - DUPAGE COUNTY REGIONAL TRANSPORTATION AUTHORITY, COUNTY SALES TAX",
+                            "authorityUuid": "34908cdd-28af-419c-aa6d-4b53ba1065af",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9991",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "DUPAGE",
+                            "zoneLevel": "County",
+                            "ZoneFipsCode": "17043"
+                        },
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "City Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "City",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG91: Standard sales tax applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.01,
+                                "unroundedAuthorityAmount": 0.0115473441,
+                                "documentAmount": 0.01,
+                                "unroundedDocumentAmount": 0.0115473441
+                            },
+                            "taxRate": "0.0125",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - WARRENVILLE, CITY SALES TAX",
+                            "authorityUuid": "f1a60f57-0ffd-4ee4-a20f-48e9cc4e84cd",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9991",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "WARRENVILLE",
+                            "zoneLevel": "City",
+                            "ZoneFipsCode": "1704378929"
+                        }
+                    ],
+                    "quantities": [
+                        {
+                            "amount": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "status": {
+                "isSuccess": true,
+                "isPartialSuccess": false
+            },
+            "calculationDirection": "T",
+            "companyName": "zz - Acct - DSTAX Sandbox UAT",
+            "companyRole": "S",
+            "currencyCode": "USD",
+            "externalCompanyId": "DSTAX",
+            "transactionDate": "2024-11-14",
+            "totalTaxAmount": 0.16,
+            "isCredit": false,
+            "vendorChargeTax": {
+                "isVctApplied": false
+            },
+            "lines": [
+                {
+                    "grossAmount": 0.92,
+                    "lineNumber": "1",
+                    "pointOfTitleTransfer": "I",
+                    "taxSummary": {
+                        "taxableBasis": "0.92",
+                        "nonTaxableBasis": "0.00",
+                        "exemptAmount": "0.00",
+                        "taxRate": "0.0825",
+                        "effectiveTaxRate": "0.0869565217",
+                        "netGrossAmount": "0.92",
+                        "netTaxAmount": "0.08"
+                    },
+                    "transactionType": "GS",
+                    "totalTaxAmount": 0.08,
+                    "taxes": [
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "State Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "State",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG189: Standard Sales Tax Applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.06,
+                                "unroundedAuthorityAmount": 0.0577367206,
+                                "documentAmount": 0.06,
+                                "unroundedDocumentAmount": 0.0577367206
+                            },
+                            "taxRate": "0.0625",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - STATE SALES/USE TAX",
+                            "authorityUuid": "88ef9864-7f75-4b36-aa8c-4ac4e613fee9",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9990",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "ILLINOIS",
+                            "zoneLevel": "State",
+                            "ZoneFipsCode": "17"
+                        },
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "County Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "County",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG91: Standard sales tax applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.01,
+                                "unroundedAuthorityAmount": 0.0069284065,
+                                "documentAmount": 0.01,
+                                "unroundedDocumentAmount": 0.0069284065
+                            },
+                            "taxRate": "0.0075",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - DUPAGE COUNTY REGIONAL TRANSPORTATION AUTHORITY, COUNTY SALES TAX",
+                            "authorityUuid": "34908cdd-28af-419c-aa6d-4b53ba1065af",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9991",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "DUPAGE",
+                            "zoneLevel": "County",
+                            "ZoneFipsCode": "17043"
+                        },
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "City Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "City",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG91: Standard sales tax applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.01,
+                                "unroundedAuthorityAmount": 0.0115473441,
+                                "documentAmount": 0.01,
+                                "unroundedDocumentAmount": 0.0115473441
+                            },
+                            "taxRate": "0.0125",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - WARRENVILLE, CITY SALES TAX",
+                            "authorityUuid": "f1a60f57-0ffd-4ee4-a20f-48e9cc4e84cd",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9991",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "WARRENVILLE",
+                            "zoneLevel": "City",
+                            "ZoneFipsCode": "1704378929"
+                        }
+                    ],
+                    "quantities": [
+                        {
+                            "amount": 1
+                        }
+                    ]
+                },
+                {
+                    "grossAmount": 0.92,
+                    "lineNumber": "2",
+                    "pointOfTitleTransfer": "I",
+                    "taxSummary": {
+                        "taxableBasis": "0.92",
+                        "nonTaxableBasis": "0.00",
+                        "exemptAmount": "0.00",
+                        "taxRate": "0.0825",
+                        "effectiveTaxRate": "0.0869565217",
+                        "netGrossAmount": "0.92",
+                        "netTaxAmount": "0.08"
+                    },
+                    "transactionType": "GS",
+                    "totalTaxAmount": 0.08,
+                    "taxes": [
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "State Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "State",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG189: Standard Sales Tax Applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.06,
+                                "unroundedAuthorityAmount": 0.0577367206,
+                                "documentAmount": 0.06,
+                                "unroundedDocumentAmount": 0.0577367206
+                            },
+                            "taxRate": "0.0625",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - STATE SALES/USE TAX",
+                            "authorityUuid": "88ef9864-7f75-4b36-aa8c-4ac4e613fee9",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9990",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "ILLINOIS",
+                            "zoneLevel": "State",
+                            "ZoneFipsCode": "17"
+                        },
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "County Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "County",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG91: Standard sales tax applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.01,
+                                "unroundedAuthorityAmount": 0.0069284065,
+                                "documentAmount": 0.01,
+                                "unroundedDocumentAmount": 0.0069284065
+                            },
+                            "taxRate": "0.0075",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - DUPAGE COUNTY REGIONAL TRANSPORTATION AUTHORITY, COUNTY SALES TAX",
+                            "authorityUuid": "34908cdd-28af-419c-aa6d-4b53ba1065af",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9991",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "DUPAGE",
+                            "zoneLevel": "County",
+                            "ZoneFipsCode": "17043"
+                        },
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "City Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "City",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG91: Standard sales tax applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.01,
+                                "unroundedAuthorityAmount": 0.0115473441,
+                                "documentAmount": 0.01,
+                                "unroundedDocumentAmount": 0.0115473441
+                            },
+                            "taxRate": "0.0125",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - WARRENVILLE, CITY SALES TAX",
+                            "authorityUuid": "f1a60f57-0ffd-4ee4-a20f-48e9cc4e84cd",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9991",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "WARRENVILLE",
+                            "zoneLevel": "City",
+                            "ZoneFipsCode": "1704378929"
+                        }
+                    ],
+                    "quantities": [
+                        {
+                            "amount": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "status": {
+                "isSuccess": true,
+                "isPartialSuccess": false
+            },
+            "calculationDirection": "T",
+            "companyName": "zz - Acct - DSTAX Sandbox UAT",
+            "companyRole": "S",
+            "currencyCode": "USD",
+            "externalCompanyId": "DSTAX",
+            "transactionDate": "2024-11-14",
+            "totalTaxAmount": 0.16,
+            "isCredit": false,
+            "vendorChargeTax": {
+                "isVctApplied": false
+            },
+            "lines": [
+                {
+                    "grossAmount": 0.92,
+                    "lineNumber": "1",
+                    "pointOfTitleTransfer": "I",
+                    "taxSummary": {
+                        "taxableBasis": "0.92",
+                        "nonTaxableBasis": "0.00",
+                        "exemptAmount": "0.00",
+                        "taxRate": "0.0825",
+                        "effectiveTaxRate": "0.0869565217",
+                        "netGrossAmount": "0.92",
+                        "netTaxAmount": "0.08"
+                    },
+                    "transactionType": "GS",
+                    "totalTaxAmount": 0.08,
+                    "taxes": [
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "State Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "State",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG189: Standard Sales Tax Applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.06,
+                                "unroundedAuthorityAmount": 0.0577367206,
+                                "documentAmount": 0.06,
+                                "unroundedDocumentAmount": 0.0577367206
+                            },
+                            "taxRate": "0.0625",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - STATE SALES/USE TAX",
+                            "authorityUuid": "88ef9864-7f75-4b36-aa8c-4ac4e613fee9",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9990",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "ILLINOIS",
+                            "zoneLevel": "State",
+                            "ZoneFipsCode": "17"
+                        },
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "County Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "County",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG91: Standard sales tax applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.01,
+                                "unroundedAuthorityAmount": 0.0069284065,
+                                "documentAmount": 0.01,
+                                "unroundedDocumentAmount": 0.0069284065
+                            },
+                            "taxRate": "0.0075",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - DUPAGE COUNTY REGIONAL TRANSPORTATION AUTHORITY, COUNTY SALES TAX",
+                            "authorityUuid": "34908cdd-28af-419c-aa6d-4b53ba1065af",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9991",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "DUPAGE",
+                            "zoneLevel": "County",
+                            "ZoneFipsCode": "17043"
+                        },
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "City Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "City",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG91: Standard sales tax applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.01,
+                                "unroundedAuthorityAmount": 0.0115473441,
+                                "documentAmount": 0.01,
+                                "unroundedDocumentAmount": 0.0115473441
+                            },
+                            "taxRate": "0.0125",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - WARRENVILLE, CITY SALES TAX",
+                            "authorityUuid": "f1a60f57-0ffd-4ee4-a20f-48e9cc4e84cd",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9991",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "WARRENVILLE",
+                            "zoneLevel": "City",
+                            "ZoneFipsCode": "1704378929"
+                        }
+                    ],
+                    "quantities": [
+                        {
+                            "amount": 1
+                        }
+                    ]
+                },
+                {
+                    "grossAmount": 0.92,
+                    "lineNumber": "2",
+                    "pointOfTitleTransfer": "I",
+                    "taxSummary": {
+                        "taxableBasis": "0.92",
+                        "nonTaxableBasis": "0.00",
+                        "exemptAmount": "0.00",
+                        "taxRate": "0.0825",
+                        "effectiveTaxRate": "0.0869565217",
+                        "netGrossAmount": "0.92",
+                        "netTaxAmount": "0.08"
+                    },
+                    "transactionType": "GS",
+                    "totalTaxAmount": 0.08,
+                    "taxes": [
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "State Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "State",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG189: Standard Sales Tax Applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.06,
+                                "unroundedAuthorityAmount": 0.0577367206,
+                                "documentAmount": 0.06,
+                                "unroundedDocumentAmount": 0.0577367206
+                            },
+                            "taxRate": "0.0625",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - STATE SALES/USE TAX",
+                            "authorityUuid": "88ef9864-7f75-4b36-aa8c-4ac4e613fee9",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9990",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "ILLINOIS",
+                            "zoneLevel": "State",
+                            "ZoneFipsCode": "17"
+                        },
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "County Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "County",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG91: Standard sales tax applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.01,
+                                "unroundedAuthorityAmount": 0.0069284065,
+                                "documentAmount": 0.01,
+                                "unroundedDocumentAmount": 0.0069284065
+                            },
+                            "taxRate": "0.0075",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - DUPAGE COUNTY REGIONAL TRANSPORTATION AUTHORITY, COUNTY SALES TAX",
+                            "authorityUuid": "34908cdd-28af-419c-aa6d-4b53ba1065af",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9991",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "DUPAGE",
+                            "zoneLevel": "County",
+                            "ZoneFipsCode": "17043"
+                        },
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "City Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "City",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG91: Standard sales tax applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.01,
+                                "unroundedAuthorityAmount": 0.0115473441,
+                                "documentAmount": 0.01,
+                                "unroundedDocumentAmount": 0.0115473441
+                            },
+                            "taxRate": "0.0125",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - WARRENVILLE, CITY SALES TAX",
+                            "authorityUuid": "f1a60f57-0ffd-4ee4-a20f-48e9cc4e84cd",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9991",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "WARRENVILLE",
+                            "zoneLevel": "City",
+                            "ZoneFipsCode": "1704378929"
+                        }
+                    ],
+                    "quantities": [
+                        {
+                            "amount": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "status": {
+                "isSuccess": true,
+                "isPartialSuccess": false
+            },
+            "calculationDirection": "T",
+            "companyName": "zz - Acct - DSTAX Sandbox UAT",
+            "companyRole": "S",
+            "currencyCode": "USD",
+            "externalCompanyId": "DSTAX",
+            "transactionDate": "2024-11-14",
+            "totalTaxAmount": 0.16,
+            "isCredit": false,
+            "vendorChargeTax": {
+                "isVctApplied": false
+            },
+            "lines": [
+                {
+                    "grossAmount": 0.92,
+                    "lineNumber": "1",
+                    "pointOfTitleTransfer": "I",
+                    "taxSummary": {
+                        "taxableBasis": "0.92",
+                        "nonTaxableBasis": "0.00",
+                        "exemptAmount": "0.00",
+                        "taxRate": "0.0825",
+                        "effectiveTaxRate": "0.0869565217",
+                        "netGrossAmount": "0.92",
+                        "netTaxAmount": "0.08"
+                    },
+                    "transactionType": "GS",
+                    "totalTaxAmount": 0.08,
+                    "taxes": [
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "State Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "State",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG189: Standard Sales Tax Applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.06,
+                                "unroundedAuthorityAmount": 0.0577367206,
+                                "documentAmount": 0.06,
+                                "unroundedDocumentAmount": 0.0577367206
+                            },
+                            "taxRate": "0.0625",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - STATE SALES/USE TAX",
+                            "authorityUuid": "88ef9864-7f75-4b36-aa8c-4ac4e613fee9",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9990",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "ILLINOIS",
+                            "zoneLevel": "State",
+                            "ZoneFipsCode": "17"
+                        },
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "County Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "County",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG91: Standard sales tax applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.01,
+                                "unroundedAuthorityAmount": 0.0069284065,
+                                "documentAmount": 0.01,
+                                "unroundedDocumentAmount": 0.0069284065
+                            },
+                            "taxRate": "0.0075",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - DUPAGE COUNTY REGIONAL TRANSPORTATION AUTHORITY, COUNTY SALES TAX",
+                            "authorityUuid": "34908cdd-28af-419c-aa6d-4b53ba1065af",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9991",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "DUPAGE",
+                            "zoneLevel": "County",
+                            "ZoneFipsCode": "17043"
+                        },
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "City Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "City",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG91: Standard sales tax applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.01,
+                                "unroundedAuthorityAmount": 0.0115473441,
+                                "documentAmount": 0.01,
+                                "unroundedDocumentAmount": 0.0115473441
+                            },
+                            "taxRate": "0.0125",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - WARRENVILLE, CITY SALES TAX",
+                            "authorityUuid": "f1a60f57-0ffd-4ee4-a20f-48e9cc4e84cd",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9991",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "WARRENVILLE",
+                            "zoneLevel": "City",
+                            "ZoneFipsCode": "1704378929"
+                        }
+                    ],
+                    "quantities": [
+                        {
+                            "amount": 1
+                        }
+                    ]
+                },
+                {
+                    "grossAmount": 0.92,
+                    "lineNumber": "2",
+                    "pointOfTitleTransfer": "I",
+                    "taxSummary": {
+                        "taxableBasis": "0.92",
+                        "nonTaxableBasis": "0.00",
+                        "exemptAmount": "0.00",
+                        "taxRate": "0.0825",
+                        "effectiveTaxRate": "0.0869565217",
+                        "netGrossAmount": "0.92",
+                        "netTaxAmount": "0.08"
+                    },
+                    "transactionType": "GS",
+                    "totalTaxAmount": 0.08,
+                    "taxes": [
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "State Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "State",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG189: Standard Sales Tax Applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.06,
+                                "unroundedAuthorityAmount": 0.0577367206,
+                                "documentAmount": 0.06,
+                                "unroundedDocumentAmount": 0.0577367206
+                            },
+                            "taxRate": "0.0625",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - STATE SALES/USE TAX",
+                            "authorityUuid": "88ef9864-7f75-4b36-aa8c-4ac4e613fee9",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9990",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "ILLINOIS",
+                            "zoneLevel": "State",
+                            "ZoneFipsCode": "17"
+                        },
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "County Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "County",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG91: Standard sales tax applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.01,
+                                "unroundedAuthorityAmount": 0.0069284065,
+                                "documentAmount": 0.01,
+                                "unroundedDocumentAmount": 0.0069284065
+                            },
+                            "taxRate": "0.0075",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - DUPAGE COUNTY REGIONAL TRANSPORTATION AUTHORITY, COUNTY SALES TAX",
+                            "authorityUuid": "34908cdd-28af-419c-aa6d-4b53ba1065af",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9991",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "DUPAGE",
+                            "zoneLevel": "County",
+                            "ZoneFipsCode": "17043"
+                        },
+                        {
+                            "responseSummary": "FullDetails",
+                            "adminZoneLevel": "State",
+                            "authorityType": "City Sales/Use",
+                            "authorityCurrencyCode": "USD",
+                            "effectiveZoneLevel": "City",
+                            "erpTaxCode": "USIL",
+                            "exemptAmount": {
+                                "authorityAmount": 0.0,
+                                "unroundedAuthorityAmount": 0.0,
+                                "documentAmount": 0.0,
+                                "unroundedDocumentAmount": 0.0
+                            },
+                            "grossAmount": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289
+                            },
+                            "documentDescription": [
+                                "Sales Tax"
+                            ],
+                            "jurisdictionText": [
+                                "USSG91: Standard sales tax applies."
+                            ],
+                            "nonTaxableBasis": {
+                                "documentAmount": "0.00",
+                                "unroundedDocumentAmount": "0.0000000000",
+                                "authorityAmount": "0.00",
+                                "unroundedAuthorityAmount": "0.0000000000"
+                            },
+                            "taxAmount": {
+                                "authorityAmount": 0.01,
+                                "unroundedAuthorityAmount": 0.0115473441,
+                                "documentAmount": 0.01,
+                                "unroundedDocumentAmount": 0.0115473441
+                            },
+                            "taxRate": "0.0125",
+                            "taxRateCode": "ST",
+                            "taxableBasis": {
+                                "authorityAmount": 0.92,
+                                "unroundedAuthorityAmount": 0.9237875289,
+                                "documentAmount": 0.92,
+                                "unroundedDocumentAmount": 0.9237875289
+                            },
+                            "taxableCountry": "US",
+                            "addressType": "SF",
+                            "authorityName": "IL - WARRENVILLE, CITY SALES TAX",
+                            "authorityUuid": "f1a60f57-0ffd-4ee4-a20f-48e9cc4e84cd",
+                            "euTransaction": "false",
+                            "natureOfTax": "P",
+                            "ruleOrder": "9991",
+                            "taxDeterminationDate": "2024-11-14",
+                            "taxPointDate": "2024-11-14",
+                            "taxType": "SA",
+                            "taxableRegion": "ILLINOIS",
+                            "taxableCounty": "DUPAGE",
+                            "taxableCity": "WARRENVILLE",
+                            "taxableGeocode": "",
+                            "taxablePostcode": "60555",
+                            "zoneName": "WARRENVILLE",
+                            "zoneLevel": "City",
+                            "ZoneFipsCode": "1704378929"
+                        }
+                    ],
+                    "quantities": [
+                        {
+                            "amount": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
