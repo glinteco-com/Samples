@@ -41,7 +41,7 @@ def extract_book_details(book_url):
     # Extract description
     description = soup.find("div", class_="woocommerce-product-details__short-description")
     details["Description"] = description.get_text(strip=True) if description else None
-    return detail
+    return details
 
 
 def scrape_category(category_url):
@@ -60,7 +60,7 @@ def scrape_category(category_url):
             book_details = extract_book_details(book_url)
             books.append(book_details)
             time.sleep(1)  # Delay to avoid overwhelming the server
-    return book
+    return books
 
 
 # Choose a category to scrape
@@ -75,4 +75,3 @@ df = pd.DataFrame(books_data)
 # Save to CSV
 df.to_csv("the_first_edition_books.csv", index=False)
 print("Scraping completed. Data saved to 'the_first_edition_books.csv'")
-
